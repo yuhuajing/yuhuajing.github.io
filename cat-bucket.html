@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="zh-TW"><head><title>PC Partner</title>
+<meta name="keywords" content="PC Partner" />
+<meta name="description" content="PC Partner" />
+<meta http-equiv="content-language" content="zh-TW">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap-xinqi.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+</head>
+<style>
+    table {
+      width: 100%;
+      background-color: #f4f4f4;
+      border-collapse: collapse;
+    }
+    
+    td {
+      padding: 10px;
+    }
+    
+    td:first-child {
+      width: 30%;
+      text-align: center;
+    }
+    
+    td:last-child {
+      width: 70%;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><img src="images/symbol_resized.png" class="img-responsive" alt=""/></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./index.html">OUR STORY</a></li>
+                <li><a href="./index.html">PRODUCTS</a></li>
+                <li><a href="./index.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航-->
+
+<!--html5-->
+<section id="html5">
+    <div class="container">
+            <div class="container wow fadeInUp">
+                <div class="col-md-4">
+                    <div class="carousel">
+                        <img id="mainImage" src="images/Freeze-Dried-Bucket-head-big-1.png" alt="主图"> <!-- 默认显示第一张图片 -->
+                    </div>
+                    <div class="thumbnails">
+                        <img src="images/Freeze-Dried-Bucket-head-big-1_resized.png" alt="缩略图1" onclick="changeImage('images/Freeze-Dried-Bucket-head-big-1.png')">
+                        <img src="images/Freeze-Dried-Bucket-head-big-2_resized.png" alt="缩略图2" onclick="changeImage('images/Freeze-Dried-Bucket-head-big-2.png')">
+                        <img src="images/Freeze-Dried-Bucket-head-big-3_resized.png" alt="缩略图3" onclick="changeImage('images/Freeze-Dried-Bucket-head-big-3.png')">
+                        <img src="images/Freeze-Dried-Bucket-head-big-4_resized.png" alt="缩略图4" onclick="changeImage('images/Freeze-Dried-Bucket-head-big-4.png')">
+                    </div>
+                    <!-- <img src="images/Deeplove.png" alt="图片"> -->
+                </div>
+                <div class="col-md-8">
+                        <img src="images/Freeze-Dried-Bucket-head.png" alt="图片">
+                        <p>
+                            Deeplove Mix freeze-dried bucket contains 10 different freeze-dried. Cat can eat 10 different flavors at a time. It contains chicken freeze-dried, chicken liver freeze-dried, egg yolk freeze-dried, duck liver freeze-dried, multi-spring fish freeze-dried, chicken breast, raw bone freeze-dried, raw bone meat cake and so on.
+                        </p>         
+                      
+                      <p>
+                        More than just a snack, these treats are versatile companions for your daily bonding moments. Reward your cat's good behavior with a tasty morsel, or soak them in water to create a delectable broth that encourages hydration and encourages even the most finicky drinkers. Alternatively, mix them into your cat's meals to stimulate their appetite and elevate their dining experience.
+                    </p>      
+                        
+                </div>
+            </div>
+    </div>
+</section>
+<!--html5-->
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                &copy;&nbsp;Copyright PC Partner Group Limited. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+
+
+<script type="text/javascript" src="http://hq.sinajs.cn/list=hk01263" charset="gb2312"></script>
+<script type="text/javascript">
+    function changeImage(src) {
+        const mainImage = document.getElementById('mainImage');
+        mainImage.src = src; // 更新主图的源
+    }
+</script>
+</body></html>

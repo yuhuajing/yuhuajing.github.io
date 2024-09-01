@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="zh-TW"><head><title>PC Partner</title>
+<meta name="keywords" content="PC Partner" />
+<meta name="description" content="PC Partner" />
+<meta http-equiv="content-language" content="zh-TW">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap-xinqi.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+</head>
+<style>
+    table {
+      width: 100%;
+      background-color: #f4f4f4;
+      border-collapse: collapse;
+    }
+    
+    td {
+      padding: 10px;
+    }
+    
+    td:first-child {
+      width: 30%;
+      text-align: center;
+    }
+    
+    td:last-child {
+      width: 70%;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><img src="images/symbol_resized.png" class="img-responsive" alt=""/></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./index.html">OUR STORY</a></li>
+                <li><a href="./index.html">PRODUCTS</a></li>
+                <li><a href="./index.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航-->
+
+<!--html5-->
+<section id="html5">
+    <div class="container">
+            <div class="container wow fadeInUp">
+                <div class="col-md-4">
+                    <div class="carousel">
+                        <img id="mainImage" src="images/donut-cat-food-1-big.png" alt="主图"> <!-- 默认显示第一张图片 -->
+                    </div>
+                    <div class="thumbnails">
+                        <img src="images/donut-cat-food-1-big_resized.png" alt="缩略图1" onclick="changeImage('images/donut-cat-food-1-big.png')">
+                        <img src="images/donut-cat-food-2-big_resized.png" alt="缩略图2" onclick="changeImage('images/donut-cat-food-2-big.png')">
+                        <img src="images/donut-cat-food-3-big_resized.png" alt="缩略图3" onclick="changeImage('images/donut-cat-food-3-big.png')">
+                        <img src="images/donut-cat-food-4-big_resized.png" alt="缩略图4" onclick="changeImage('images/donut-cat-food-4-big.png')">
+                    </div>
+                    <!-- <img src="images/Deeplove.png" alt="图片"> -->
+                </div>
+                <div class="col-md-8">
+                        <img src="images/donut-cat-food-head.png" alt="图片">
+                        <p>
+                        Non-GMO, Corn Free, Gluten Free
+                        </p>         
+                        <p>
+                        Deeplove Cat Food Recipe For All Life Stages Cats
+                        Deeplove strongly advocates that the health of cats comes from the inside to out. We have meticulously curated every component of Deeplove, guaranteeing that it is a comprehensive and well-rounded cat food. With an unwavering commitment to meeting your cat's individual needs, Deeplove proudly presents itself as a grain-free, corn-free, soy-free, wheat-free choice. In addition, Deeplove Cat Food features real chicken as the primary source of nutrition. The inclusion of salmon oil, vitamins, minerals, and essential nutrients works together to maintain your cat's overall health and vitality.
+                        </p>
+                        <p style="color: #CC3366;">What Contributes to Healthier Skin and Coat?</p>
+                        - Salmon Oil: Enriched with Omega-3, it promotes vibrant skin and a lustrous coat, while also aiding in reducing swelling and overall inflammation in cats.
+                        <p style="color: #CC3366;">What Can Make the Growth Stronger?</p>
+                        -Rich in taurine, it ensures optimal development of kitten's heart and brain. 
+                        -Packed with high-quality protein, it provides superior nutrition, empowering feline with strength, enhanced immunity, and resilience against illnesses. Notably, the animal-based protein is more easily digestible and absorbed, ensuring maximum nutritional benefits.
+                        <p style="color: #CC3366;">Advantages of Wheat & Gluten-Free?</p>
+                        -Minimize the Risks of Gluten Intolerance, Gluten Sensitivity, Wheat-Induced Allergies, Skin Irritations like Rashes & Itching, and Hair Loss, Among Others.
+                        <p style="color: #CC3366;">Advantages of Corn-Free</p>
+                        Cat lack the ability to efficiently break down and utilize corn-derived protein.
+                        Some cat individuals with corn allergies may experience adverse reactions.
+                        <p style="color: #CC3366;"> Benefits of SYNBIOTICS</p>
+                        The combination of FOS and GOS double prebiotics can promote the metabolism and reproduction of beneficial bacteria in the intestine and improve the intestinal environment.
+                        <p style="color: #CC3366;">Certification</p>
+                        The products have been recognized by the FDA-United States Food and Drug Administration, ISO9001-International quality standard management system certification, ISO2200-International Food safety management system certification.
+                        High-quality fresh raw materials.
+                        High standards of production environment.                    
+                      </p>
+                </div>
+            </div>
+    </div>
+</section>
+<!--html5-->
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                &copy;&nbsp;Copyright PC Partner Group Limited. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+
+
+<script type="text/javascript" src="http://hq.sinajs.cn/list=hk01263" charset="gb2312"></script>
+<script type="text/javascript">
+    function changeImage(src) {
+        const mainImage = document.getElementById('mainImage');
+        mainImage.src = src; // 更新主图的源
+    }
+</script>
+</body></html>

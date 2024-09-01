@@ -1,6 +1,11 @@
 body{
     font-family: 'Microsoft YaHei', sans-serif;
 }
+h2 {
+    color: red; /* 大红色 */
+    font-weight: bold; /* 加粗 */
+}
+
 .mai-icon{
     background: #38f;
     color: #fff;
@@ -11,10 +16,12 @@ body{
     line-height: 40px;
     margin-right: 20px;
 }
-/*����*/
+/*����*/
 .navbar{margin-bottom: 0;border-bottom: 1px solid #e6e6e6;}
 .navbar-default{
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #8B4513; /* 红褐色背景 */
+            /* padding: 10px; */
     /* box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25); */
 }
 .navbar-default .navbar-brand {
@@ -25,20 +32,28 @@ body{
     line-height: 35px;padding:0;
 }
 .navbar-default .navbar-nav>li>a {
-    font-size: 16px;
+    /* font-size: 16px;
     color: #444;
     height: 70px;
+    line-height: 35px; */
+    color: white; /* 链接颜色为白色 */
+    height: 70px;
+    font-size: 16px;
     line-height: 35px;
+    /* text-decoration: none;
+    padding: 5px 10px; */
+    font-weight: bold; /* 加粗 */
 }
 .navbar-default .navbar-nav>li>a:hover{color: #38f;}
+
 .navbar-toggle{
     margin-top: 17px;
 }
-.banner{text-align:center;color: #fff;background:url(../images/banner.jpg);background-size:100% 100%;}
+.banner{text-align:center;color: #fff;background:url(../images/bg.png);background-size:100% 100%;}
 .lvjing{
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.756);
     padding: 80px 0;
 }
 /*home*/
@@ -75,6 +90,7 @@ body{
     background: #f1f1f1;
     box-shadow: 1px 1px 4px #ccc;
 }
+
 #bbs a{
     color: #212121;
     text-decoration: none;
@@ -86,6 +102,15 @@ body{
 /*HTML5 + bootstrap*/
 #html5{
     background: #f8f8f8;
+    background-image: url('../images/story-bg.png'); /* 使用背景图片 */
+            background-size: cover; /* 使背景图片覆盖整个区域 */
+            background-position: center; /* 图片居中 */
+}
+#products{
+    background: #f8f8f8;
+    background-image: url('../images/story-bg.png'); /* 使用背景图片 */
+            background-size: cover; /* 使背景图片覆盖整个区域 */
+            background-position: center; /* 图片居中 */
 }
 #html5 , #bootstrap{
     padding: 80px 0;
@@ -96,6 +121,7 @@ body{
 #html5 p  , #bootstrap p{
     line-height: 25px;
 }
+
 
 /*course*/
 #course{
@@ -190,4 +216,33 @@ footer{
     text-align: center;
     padding:20px;
     color:#999;
+}
+
+.carousel {
+    position: relative;
+    width: 300px; /* 上面图片的宽度 */
+    height: 300px; /* 上面图片的高度 */
+    margin: 20px auto;
+    overflow: hidden;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* 平滑过渡效果 */
+}
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.thumbnails img {
+    width: 60px; /* 缩略图宽度 */
+    height: 60px; /* 缩略图高度 */
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+.thumbnails img:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
 }
