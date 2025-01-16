@@ -1,27 +1,17 @@
 #  Web3学习书记
-介绍web3世界中的技术
-- Solidity合约开发 ([Solidity](https://github.com/yuhuajing/solidity-book));
+- 介绍web3世界中的技术
+- Page in <https://yuhuajing.github.io/>
 
-**This book is not for complete beginners.**
-
-I expect you to be an experienced developer, who has ever programmed in any programming language. It'll also be helpful if you know [the syntax of Solidity](https://docs.soliditylang.org/en/v0.8.17/introduction-to-smart-contracts.html), the main programming language of this book. If not, it's not a big problem: we'll learn a lot about Solidity and Ethereum Virtual Machine during our journey.
-
-**However, this book is for blockchain beginners.**
-
-If you only heard about blockchains and were interested but haven't had a chance to dive deeper, this book is for you!  Yes, for you! You'll learn how to develop for blockchains (specifically, Ethereum), how blockchains work, how to program and deploy smart contracts, and how to run and test them on your computer.
-
-Alright, let's get started!
-
-## Useful Links
-1. This book is hosted on GitHub: <https://github.com/yuhuajing/solidity-book>
-2. Page in <https://yuhuajing.github.io/solidity-book/>
-
-## Table of Contents
-- Solidity
-    1. solidity-book
-- Uniswap
-    1. uniswap-book
-- GolangWeb3
-    1. golang-web3-book
-- SUI
-    1. sui-book
+### Solidity
+- [solidity-book](https://github.com/yuhuajing/solidity-book)
+- [solidity-security](https://yuhuajing.github.io/ethernaut-book/)
+### Uniswap
+- [uniswap-book](https://uniswapv3book.com/)
+### GolangWeb3
+- [golang-web3-books](https://yuhuajing.github.io/web3-development-with-go-book/index.html)
+### SUI
+- [Move-book](https://github.com/MystenLabs/move-book)
+- [Sui-book](https://intro.sui-book.com/unit-one/index.html)
+- [Sui-cli](https://cookbook.sui-book.com/01_sui_cli/index.html)
+- [Sui-doc](https://docs.sui.io/guides/developer/getting-started/sui-install#using-sui-from-command-line)
+- [Sui-reference](https://docs.sui.io/references)
