@@ -18,12 +18,10 @@ Alright, let's get started!
 
 ## Table of Contents
 - Solidity
-  1. solidity-book
+    1. solidity-book
 - Uniswap
-  1. uniswap-book
+    1. uniswap-book
 - GolangWeb3
-  1. golang-web3-book
+    1. golang-web3-book
 - SUI
-  1. sui-book
-
-
+    1. sui-book

@@ -1,0 +1,16 @@
+[book]
+authors = ["HuajingYu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Web3 Development Book"
+description = "A book that teaches how to learn Web3."
+
+[output.html]
+curly-quotes = true
+git-repository-url = "https://github.com/yuhuajing/yuhuajing.github.io.git"
+git-repository-icon = "fa-github"
+cname = "web3-book.com"
+
+[preprocessor.katex]
+after = ["links"]
