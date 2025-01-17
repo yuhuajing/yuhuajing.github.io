@@ -13,8 +13,8 @@ If you only heard about blockchains and were interested but haven't had a chance
 Alright, let's get started!
 
 ## Useful Links
-1. This book is hosted on GitHub: <https://github.com/yuhuajing/solidity-book>
-2. Page in <https://yuhuajing.github.io/solidity-book/>
+1. This book is hosted on GitHub: <https://github.com/yuhuajing/yuhuajing.github.io>
+2. Page in <https://yuhuajing.github.io/>
 
 ## Table of Contents
 - Solidity
