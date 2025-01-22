@@ -3,7 +3,7 @@
 - Page in <https://yuhuajing.github.io/>
 
 ### Solidity
-- [solidity-book](https://github.com/yuhuajing/solidity-book)
+- [solidity-book](https://yuhuajing.github.io/solidity-book/)
 - [solidity-security](https://yuhuajing.github.io/ethernaut-book/)
 ### Uniswap
 - [uniswap-book](https://uniswapv3book.com/)
