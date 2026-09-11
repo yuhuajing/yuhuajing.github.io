@@ -2,7 +2,6 @@
   :root {
     --layout-max-width: 1200px;
     --layout-padding: 20px;
-    --content-large-padding: 40px 38px 46px;
     --content-small-padding: 20px 19px 23px;
     --font-large-size: 46px;
     --font-stress-size: 22px;
@@ -29,7 +28,6 @@
     --font-base-size: 12px;
     --font-base-lh: 1.4;
     --banner-height: 280px;
-    --content-large-padding: 30px 28px 34px;
     --content-primary-padding: 16px;
     --soft-large-radius: 16px;
     --soft-primary-radius: 6px;
@@ -300,8 +298,7 @@ dfn {
 [class*=soft-style--].soft-style--active:active {
   overflow: hidden;
   border-radius: var(--radius);
-  background-color: var(--theme-bg-primary);
-  background-image: linear-gradient(145deg, var(--theme-text-active1), var(--theme-text-active2));
+  background-color: var(--theme-text-active);
   box-shadow: inset var(--soft-shadow) var(--soft-shadow) calc(var(--soft-shadow) * 2) var(--theme-bg-shadow), inset calc(-1 * var(--soft-shadow)) calc(-1 * var(--soft-shadow)) calc(var(--soft-shadow) * 2) var(--theme-bg-high);
 }
 .root-container {
@@ -353,8 +350,7 @@ dfn {
 .wrap-list.light a:active {
   overflow: hidden;
   border-radius: var(--soft-small-radius);
-  background-color: var(--theme-bg-primary);
-  background-image: linear-gradient(145deg, var(--theme-text-active1), var(--theme-text-active2));
+  background-color: var(--theme-text-active);
   box-shadow: inset var(--soft-shadow) var(--soft-shadow) calc(var(--soft-shadow) * 2) var(--theme-bg-shadow), inset calc(-1 * var(--soft-shadow)) calc(-1 * var(--soft-shadow)) calc(var(--soft-shadow) * 2) var(--theme-bg-high);
 }
 .wrap-list.dark a {
@@ -530,36 +526,6 @@ html.show-mobile-nav .navbar-list {
     color: #161b3d;
   }
 }
-@-moz-keyframes showMobileNav {
-  from {
-    opacity: 0;
-    transform: translateX(70%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@-webkit-keyframes showMobileNav {
-  from {
-    opacity: 0;
-    transform: translateX(70%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@-o-keyframes showMobileNav {
-  from {
-    opacity: 0;
-    transform: translateX(70%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 @keyframes showMobileNav {
   from {
     opacity: 0;
@@ -592,7 +558,6 @@ html.show-mobile-nav .navbar-list {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -641,7 +606,7 @@ html.show-mobile-nav .navbar-list {
   color: var(--theme-text-primary);
 }
 .footer-container a {
-  color: var(--theme-stree-color);
+  color: var(--theme-text-active);
   font-weight: bolder;
   transition: color 0.3s ease;
 }
@@ -1093,7 +1058,7 @@ html.show-mobile-nav .navbar-list {
 .markdown-body .aplayer.aplayer-box {
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: var(--theme-bg-color);
+  background-color: var(--theme-bg-primary);
   overflow: hidden;
   border-radius: var(--soft-small-radius);
   background-color: var(--theme-bg-primary);
@@ -1103,10 +1068,10 @@ html.show-mobile-nav .navbar-list {
   line-height: normal;
 }
 .markdown-body .aplayer.aplayer-box .aplayer-lrc:before {
-  background: linear-gradient(180deg, var(--theme-bg-color) 0, rgba(255,255,255,0));
+  background: linear-gradient(180deg, var(--theme-bg-primary) 0, rgba(255,255,255,0));
 }
 .markdown-body .aplayer.aplayer-box .aplayer-lrc:after {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0, var(--theme-bg-color));
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0, var(--theme-bg-primary));
 }
 .markdown-body .dplayer.dplayer-box {
   margin-top: 16px;
